@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+%\usepackage[left=0.75in,top=0.1in,right=0.75in,bottom=0.65in]{geometry} % Document margins
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf Zhengyang Zuo} % Your name at the top
+
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+
+\moveleft.5\hoffset\centerline{5540 Fifth Avenue, Apt 9} % Your address
+\moveleft.5\hoffset\centerline{Pittsburgh, PA 15232}
+\moveleft.5\hoffset\centerline{(412) 426-0070}
+\moveleft.5\hoffset\centerline{zuozhengyang@gmail.com}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{OBJECTIVE}
+
+%To obtain a summer internship utilizing my knowledge and skills in computer and information science.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+{\sl Candidate for Master of Science,} Information Networking \\
+Carnegie Mellon University, Pittsburgh, PA \hfill December 2015 \\
+Cumulative GPA: 3.71/4.00 
+
+{\sl Bachelor of Engineering,} Electronic Engineering \\
+Tsinghua University, Beijing, China \hfill July 2014 \\
+Overall GPA: 3.67/4.00 
+
+\section{RELEVANT COURSES}
+Search Engines \hspace{94pt} Fundamentals of Embedded Systems \\
+Introduction to Computer Systems \hspace{8pt} Packet Switching and Computer Networks \\
+%Data and Algorithm \hspace{19pt} Packet Switching and Computer Networks \\
+%Database \hspace{65pt} Java and Object-Oriented Programming \\
+Data and Algorithm \hspace{73pt} Database
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{COMPUTER \\ SKILLS}
+
+{\sl Languages:}
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Most experienced with Java
+\item Some experience with C, C++ and Python
+\item Dabbled in Javascript and R
+\end{itemize}
+%Most experienced with: Java \\
+%Some experience with: C, C++, Python \\
+%Dabbled in: Javascript, R
+{\sl Software \& Systems:} Visual Studio, Matlab, Linux.
+
+%----------------------------------------------------------------------------------------
+%	COURSE PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\section{COURSE PROJECTS}
+{\sl QryEval Search Engine,} Search Engines \hfill Fall 2014 
+\begin{itemize} \itemsep -2pt
+\item Built a simple search engine based on ClueWeb09 corpus and Lucene indexes.
+\item Implemented Boolean, BM25 and Indri retrieval algorithms.
+\item Implemented pseudo relevance feedback.
+\item Implemented features and test the learning to rank algorithm.
+\item Coded with Java.
+\end{itemize}
+
+{\sl Gravel OS Kernel,} Fundamentals of Embedded Systems \hfill Fall 2014 
+\begin{itemize} \itemsep -2pt
+\item Built a simple embedded operating system kernel based on QEMU emulator.
+\item Wrote new syscalls for {\sl read}, {\sl write}, {\sl exit}, {\sl time} and {\sl sleep} functions. 
+\item Hijacked U-boot's SWI handler, wrote new SWI handlers.
+\item Wrote a new IRQ handler and a timer driver.
+\item Introduced context switching and concurrency control through mutexes.
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL/RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{RESEARCH EXPERIENCE}
+
+%{\sl Business Applications Programmer} \hfill Fall 1990 \\
+%Allied-Signal Bendix Friction Materials Division, Financial Planning Department, Latham, NY
+
+%\begin{itemize} \itemsep -2pt % Reduce space between items
+%\item Developed four ``user friendly" forecasting systems each of which produces 18 to 139 individual reports.
+%\item Developed or improved almost all IFPS programs used for financial reports.
+%\end{itemize}
+
+{\sl Research Programmer} \hfill Spring 2014 \\
+Speech and Audio Technology Lab, Tsinghua University, Beijing, China
+\begin{itemize} \itemsep -2pt
+\item Implemented a method to extract semantic structures semi-automatically based on the information queries in the unannotated ATIS-3 corpus.
+\item Implemented unsupervised agglomerative clustering. The clustering process was divided into spatial clustering and temporal clustering.
+%\item Introduced injection of prior knowledge and post-processing.
+\item Coded with Python.
+\end{itemize}
+
+{\sl Research Assistant} \hfill Summer 2013 \\
+Department of ECE, North Carolina State University, Raleigh, NC
+\begin{itemize} \itemsep -2pt
+\item Worked with three other students to build a cognitive radio networks (CRN) simulation framework
+on PHY/MAC layers, and set up a mathematical model to describe the operations and performance
+of CRN.
+\item Used Matlab Simulink to build the simulation framework and process the simulation results. 
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNITY SERVICE SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{COMMUNITY \\ SERVICE}
+
+%Organized and directed the 1988 and 1989 Grand Marshall Week \\
+%``Basketball Marathon.'' A 24 hour charity event to benefit the Troy Boys Club. Over 250 people participated each year.
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}
